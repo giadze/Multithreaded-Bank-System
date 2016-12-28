@@ -1,0 +1,10 @@
+Start server, by ./server and then providing port number, in this case 35800 which would wait for client connection, if no one connects for a while, then it displays the following and repeats: Bank Information: 
+											 Empty bank.
+											 -----------
+
+2. Connect the client from another terminal window, by ./client and then specifying machine name or just simply a local host 127.0.0.1 and the results after typing that are: Connected to Server.
+				Receive Server Output Status: READY
+				Server: Ready to receive input from client.
+				Status of Client to Take Input: READY
+and the server will display:  Accepted new client connection. If you do not know the commands, you can always type help on the client side and it will give you the command list on the left with the description on the right. Once you have learned that, you can go ahead and test the program with your own test cases or use on of ours. 
+
